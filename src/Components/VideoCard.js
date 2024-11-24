@@ -55,10 +55,11 @@ function VideoCard({ displayVideo, setDeleteVideo, insideCategory }) {
           style={{
             objectFit: "cover",
             cursor: "pointer",
+           
           }}
         />
         <Card.Body className="d-flex align-items-center justify-content-between">
-          <h5 className="m-0 fw-bold text-truncate" style={{ maxWidth: "75%" }}>
+          <h5 className="m-0 fw-bold text-truncate" style={{ maxWidth: "100%" }}>
             {displayVideo?.caption}
           </h5>
           {!insideCategory && (

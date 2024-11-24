@@ -80,7 +80,7 @@ function History() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-decoration-none text-primary d-inline-block text-truncate"
-                      style={{ maxWidth: "150px" }}
+                      style={{ maxWidth: "70px" }}
                       title={video?.youtubeUrl}
                     >
                       {video?.youtubeUrl}

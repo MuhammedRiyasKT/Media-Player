@@ -21,18 +21,21 @@
   
   @media (max-width: 576px) { /* Bootstrap's breakpoint for sm */
     .responsive-image {
-      height: 400px; /* Increased height for col-sm-12 */
+      height: 200px;
+      width: 100px; /* Increased height for col-sm-12 */
     }
   }
   
   @media (max-width: 767px) { /* Bootstrap's breakpoint for sm */
     .responsive-image {
-      height: 400px; /* Increased height for col-sm-12 */
+      height: 200px;
+      width: 100px; /* Increased height for col-sm-12 */
     }
   }
 
   @media (max-width: 991.98px) {
     .responsive-image {
-      height: 400px; /* Height adjustment for medium devices */
+      height: 300px;
+      width: 100px; /* Height adjustment for medium devices */
     }
   }
