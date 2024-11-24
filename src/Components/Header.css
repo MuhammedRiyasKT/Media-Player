@@ -1,0 +1,39 @@
+/* Navbar background gradient */
+.bg-info {
+    background: linear-gradient(45deg, #17a2b8, #007bff);
+    color: white;
+  }
+  
+  /* Brand text style */
+  .navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icon style */
+  .navbar-brand i {
+    color: #ffdd57;
+    font-size: 2rem;
+  }
+  
+  /* Navbar shadow */
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar container padding */
+  .navbar .container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Hover effect for brand */
+  .navbar-brand:hover {
+    color: #ffdd57 !important;
+    text-shadow: 0px 0px 5px rgba(255, 221, 87, 0.8);
+  }
+  
